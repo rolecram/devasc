@@ -1,0 +1,87 @@
+31 de mayo 2021
+
+Revisión del examen
+JSON, XML, YAML
+
+1 de junio
+
+Python
+	https://www.python.org/
+
+Python on browser
+	https://replit.com/languages/python3
+
+Python Install
+	https://python.land/installing-python
+
+Python Introduction
+	https://python.land/introduction-to-python/python-boolean-and-operators
+
+Python Classes
+	https://python.land/objects-and-classes
+
+Python JSON
+	https://python.land/python-data-types/dictionaries
+
+	https://realpython.com/python-json/
+
+API
+	REST API using Postman
+
+Call API Weather
+	https://openweathermap.org/api
+	
+	Sample:
+		https://api.openweathermap.org/data/2.5/weather?q=Montreal,,CA&appid=b26f884059504c801d371a4834ce4623&mode=json
+
+
+Git Getting started
+	https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
+Github hello world (completar el ejercicio)
+	https://guides.github.com/activities/hello-world/
+
+Github schema
+	https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
+
+Git Good intro
+	https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github	
+	
+Git commands
+	https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
+
+Git Desktop download
+	https://desktop.github.com/
+
+Git import project to github
+	https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
+
+Git to Github
+	https://kbroman.org/github_tutorial/pages/init.html
+	
+Github inviting collaborators
+	https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository	
+
+	Revisar preguntas del curso.
+
+Github Rubén
+	rudasa2021
+	rudasacuervo@gmail.com
+
+Cisco API
+	https://developer.cisco.com/learning/lab/what-are-restapis/step/1
+
+3 de junio de 2021
+	CREAR Máquina virtual (ubuntu)
+	INSTALAR Python3
+	INSTALAR Git Desktop (ver arriba url)
+	CREAR directorio de trabajo examen o devasc
+	ir al directorio
+	git init
+	git clone https://github.com/rolecram/devasc
+	pip3 install requests
+	python3 first.py
+	
+	
+	
+	

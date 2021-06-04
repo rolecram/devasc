@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "marceline",
+      "name": "Marceline Abadeer",
+      "bio": "1000 year old vampire queen, musician"
+    },
+    {
+      "id": 2,
+      "username": "finn",
+      "name": "Finn 'the Human' Mertens",
+      "bio": "Adventurer and hero, last human, defender of good"
+    }
+	]
+}
