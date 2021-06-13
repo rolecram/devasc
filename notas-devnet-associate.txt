@@ -64,6 +64,9 @@ Github inviting collaborators
 
 	Revisar preguntas del curso.
 
+Git Versioning
+	https://stackoverflow.com/questions/37814286/how-to-manage-the-version-number-in-git
+	
 Github Rubén
 	rudasa2021
 	rudasacuervo@gmail.com
@@ -82,6 +85,103 @@ Cisco API
 	pip3 install requests
 	python3 first.py
 	
+4 de junio 2021
+Curso Cisco Dev
+	https://www.udemy.com/course/cisco-devnet-associate-devasc-200-901-certification-guide/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_77879423894_._ad_437497333815_._kw__._de_c_._dm__._pl__._ti_dsa-1007766171032_._li_1000073_._pd__._&matchtype=b&gclid=Cj0KCQjw78yFBhCZARIsAOxgSx0GMm3XfJTuIaUgPsINNqAifHZHmZXE8XifIV4JW1XAoUvE-IHz0vYaAv6KEALw_wcB
+	user: rsajnove@cisco.com
+	password: Libraco-Rocha
+
+5 de junio 2021
+Git commands
+	git config user.name "your username" git config user.password "your password"
+	git init
+	git add . (or *.py)
+	git commit -m "mensaje" (-m === mensaje si se omite abre el editor default)
+	git remote add [name, for example origin] https://github.com/[user]/[repository].git (agrega un origen remosto)
+	git push -u origin [branch]
+	git push --set-upstream origin [branch]
+	git branch -M main
+	git pull
+	git remote show
+	git remote -v
+	git checkout -b [branch] (switched to branch)
+	git request-pull [version] [url] [branch]
+	git tag
+	git tag -a [version] -m "my version"
+	git show [version]
+
+	List, create delete branches
+		git branch (-m | -M) [<oldbranch>] <newbranch>
+		git branch (-c | -C) [<oldbranch>] <newbranch>
+		git branch (-d | -D) [-r] <branchname>…​	
+
+	git remote set-url command changes an existing remote repository URL.
+	
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin git@github.com:alexpchin/<reponame>.git
+	git push -u origin master	
+	
+13 de junio de 2021
+
+	Estructura de datos
+	
+		XML (Extensible markup language)
+		JSON (Javascript object notation)
+		YAML (Ain't Markup Language")
+		
+	Definición del esquema de la estructura de datos
+
+		YANG (Yet Another Next Generation) 
+			NETCONF (protocolo de red)
+			XML (que son los datos reales que corresponden al esquema)
+			JSON (que son los datos reales que corresponden al esquema)
+			
+	Programa
+		YARN (Yet Another Resource Negotiator)
+			Despliegue de recursos y dependencias de paquetes, módulos que conforman un sistema
+	
+
+	Authentication and Authorization en las llamadas a las APIs de Cisco.
+	
+	Test 3
+	
+	Simple Network Management Protocol (SNMP) is an Internet Standard protocol 
+	for collecting and organizing information about managed devices on IP networks 
+	and for modifying that information to change device behavior. 
+	SNMPv1 is the original version of the protocol.
+	MIBs
+	
+	Cisco DNA Center Plataform REST API
+		Groups by Intent API, Integration API, Multivendor SDK
+	Cisco AMP APIs
+		Cisco AMP is an intelligence-powered, integrated, enterprise-class advanced malware analysis and protection solution. ... 
+	
+	Chef is a configuration management technology used to automate the infrastructure provisioning. 
+
+	Cisco UCS Workflow
+	
+	Cisco Collaboration APIs Basic Authentication
+	
+	Cisco Fire Power NGFW
+	
+	Cisco ISE
+	
+	Cisco UCS Director
+	
+	Cisco Network Services Orchestrator
+	
+	Puppet master is a Ruby application that compiles configurations for any number of Puppet agent nodes, using Puppet code and various other data sources. 
+	
+	Agile VMODEL
+	
+	MVC Model
+	
+	Agile is an application of lean principles
 	
 	
 	
+	
+
+
