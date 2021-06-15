@@ -220,14 +220,16 @@ Git commands
 			
 
 		Understanding ACI
-			https://developer.cisco.com/learning/labs/sbx-intro-aci-01_understandingaci/step/1
-			
+			Cisco Application Centric Infrastructure (ACI) - Endpoint Groups (EPG) Usage and Design.
+			(NOT AVAILABLE) https://developer.cisco.com/learning/labs/sbx-intro-aci-01_understandingaci/step/1
+
+		Introduction to	ACI	Toolkit
+			https://developer.cisco.com/learning/labs/sbx-intro-aci-03_aci-toolkit/step/1
+
 		Obtain a list of clients / hosts seen on a network using Meraki or Cisco DNA Center
 			ACI	Programmability	Options
 				https://developer.cisco.com/learning/labs/sbx-introaci-02_programmability-options/step/1
 				
-		Introduction to	ACI	Toolkit
-			https://developer.cisco.com/learning/labs/sbx-intro-aci-03_aci-toolkit/step/1
 
 		Introduction to	Cisco SD-WAN REST APIs
 			https://developer.cisco.com/learning/labs/intro-sd-wanrest-api/step/1
