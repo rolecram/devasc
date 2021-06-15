@@ -130,6 +130,7 @@ Git commands
 		XML (Extensible markup language)
 		JSON (Javascript object notation)
 		YAML (Ain't Markup Language")
+			https://en.wikipedia.org/wiki/YAML
 		
 	Definición del esquema de la estructura de datos
 
@@ -144,6 +145,9 @@ Git commands
 	
 
 	Authentication and Authorization en las llamadas a las APIs de Cisco.
+		Basic Authentication (en el http header, user y password en base 64)
+		Token (en el header, Authorization Bearer <token>
+		Oauth
 	
 	Test 3
 	
@@ -153,35 +157,153 @@ Git commands
 	SNMPv1 is the original version of the protocol.
 	MIBs
 	
-	Cisco DNA Center Plataform REST API
-		Groups by Intent API, Integration API, Multivendor SDK
-	Cisco AMP APIs
-		Cisco AMP is an intelligence-powered, integrated, enterprise-class advanced malware analysis and protection solution. ... 
+	Editor sugerido en lugar de vi: atom o vscode
 	
-	Chef is a configuration management technology used to automate the infrastructure provisioning. 
+	CISCO
+		https://developer.cisco.com/learning/labs/tags/Ansible,Networking/page/1
+	
+		Cisco DNA Center Plataform REST API
+			Groups by Intent API, Integration API, Multivendor SDK
+			https://developer.cisco.com/learning/lab/dnav3-dnac-nbapi-hello-world/step/1)
+		
+		Cisco AMP APIs
+			Cisco AMP is an intelligence-powered, integrated, enterprise-class advanced malware analysis and protection solution. ... 
+		
+		Chef is a configuration management technology used to automate the infrastructure provisioning. 
 
-	Cisco UCS Workflow
-	
-	Cisco Collaboration APIs Basic Authentication
-	
-	Cisco Fire Power NGFW
-	
-	Cisco ISE
-	
-	Cisco UCS Director
-	
-	Cisco Network Services Orchestrator
-	
+		Cisco UCS Workflow
+		
+		Cisco Collaboration APIs Basic Authentication
+		
+		Cisco Fire Power NGFW
+		
+		Cisco ISE
+		
+		Cisco UCS Director
+		
+		Cisco Network Services Orchestrator
+		
+		Cisco ACI
+		
+		Cisco Meraki
+		
+		Cisco SDWAN 
+		
+		Cisco NSO
+		
+		Cisco REST APIs
+			HEADER: Authorization  [bearer [TOKEN]]
+			https://www.ciscolive.com/c/dam/r/ciscolive/apjc/docs/2016/pdf/DEVNET-1001.pdf
+
+		Invoke	Webex REST APIs	from the interactive documentation
+			https://developer.cisco.com/learning/lab/collab-spark-doc-tour-itp/step/1
+		
+		Building Python	Requests to	Read and Create	Webex Teams	API	Items
+			https://developer.cisco.com/learning/lab/collab-spark-calling-apis-from-python-itp/step/1
+			
+		Describe the device level APIs and dynamic interfaces for IOS XE and NX-OS
+			https://developer.cisco.com/learning/lab/intro-yang/step/1
+
+		Exploring IOS XE YANG Data Models with NETCONF
+			https://developer.cisco.com/learning/labs/intro-netconf/step/1
+			
+		Cisco UCS Manager, UCS Director, and Intersight
+			(NOT AVAILABLE) https://developer.cisco.com/learning/lab/dnav3-dnac-apioverview/step/1
+			
+		Cisco Describe the capabilities of Cisco security platforms and APIs
+		(Firepower, Umbrella, AMP, ISE, and ThreatGrid)
+			(NOT AVAILABLE) https://developer.cisco.com/learning/lab/whymdp/step/1
+			
+			
+		Exploring IOS XE YANG	Data Models	with RESTCONF
+			https://developer.cisco.com/learning/labs/intro-restconf/step/1
+			
+
+		Understanding ACI
+			https://developer.cisco.com/learning/labs/sbx-intro-aci-01_understandingaci/step/1
+			
+		Obtain a list of clients / hosts seen on a network using Meraki or Cisco DNA Center
+			ACI	Programmability	Options
+				https://developer.cisco.com/learning/labs/sbx-introaci-02_programmability-options/step/1
+				
+		Introduction to	ACI	Toolkit
+			https://developer.cisco.com/learning/labs/sbx-intro-aci-03_aci-toolkit/step/1
+
+		Introduction to	Cisco SD-WAN REST APIs
+			https://developer.cisco.com/learning/labs/intro-sd-wanrest-api/step/1
+			
+		Cisco SD-WAN CLI application developed using the vManage REST API
+			https://developer.cisco.com/learning/labs/sd-wan-rest-api-app/step/1
+
+		Using Postman to interact with the Cisco SD-WAN	REST API
+			https://developer.cisco.com/learning/labs/sd-wan-rest-api-postman/step/1
+			
+		Using Python to	interact with the Cisco	SD-WAN	REST API
+			https://developer.cisco.com/learning/labs/sd-wan-rest-api-python/step/1
+				
+		NSO	as	a	provisioning	tool
+			https://developer.cisco.com/learning/labs/NSO-as-a-provisioningtool/step/1
+		
+		Nexus	OS	Programmability	and	Automation	Overview
+			https://developer.cisco.com/learning/lab/nxos-intro-01_overview/step/1
+			
+		Using	the	Meraki	Dashboard	API	with Postman
+			https://developer.cisco.com/learning/lab/meraki02-dashboard-api/step/1
+
+		Meraki	location	scanning	API	Python	
+			https://developer.cisco.com/learning/lab/meraki-03-loca8on-scanning-python/step/1
+			
+		Meraki	Location	Scanning	API	Python	
+			https://developer.cisco.com/learning/labs/meraki-03-loca8on-scanning-python/step/1
+			
+		Meraki	External Captive Portal	
+			https://developer.cisco.com/learning/labs/meraki-04-cap8veportal-python/step/1
+			
+		Meraki	Wireless Health	
+			https://developer.cisco.com/learning/labs/meraki-06-wireless-health/step/1
+				
+		SIGUE TOPIC 4
+		
+		
 	Puppet master is a Ruby application that compiles configurations for any number of Puppet agent nodes, using Puppet code and various other data sources. 
 	
 	Agile VMODEL
 	
-	MVC Model
+	MVC Model and Observer
+		MVC is a design pattern used to decouple user-interface (view), 
+		data (model), and application logic (controller).
+		Using the MVC pattern for websites, 
+		requests are routed to a Controller that is responsible for working with the Model 
+		to perform actions and/or retrieve data.	
 	
-	Agile is an application of lean principles
+	Agile is an application of lean principles:
+	The seven Lean principles are:
+		Eliminate waste.
+		Build quality in.
+		Create knowledge.
+		Defer commitment.
+		Deliver fast.
+		Respect people.
+		Optimize the whole.
 	
-	
-	
-	
+		
+		
+
+		
+UDEMY REPORT ABUSE		
+https://www.udemy.com/course/cisco-devnet-associate-devasc-200-901-certification-guide/?persist_locale=&locale=en_US
+
+This course is anaunced as a curse, but it is not a course it only includes four practice test.
+The page says: This course includes four practice test, the verb includes assumes that there is a course in addition to exam practice.
+You should clarify this to avoid future misunderstandings
 
 
+Cisco DevNet Associate DEVASC 200-901 Certification Guide
+Included in This Course
+240 questions
+Practice tests (Cisco Certified DevNet Associate certification) 60 questions
+Practice tests (Cisco Certified DevNet Associate certification) 60 questions
+Practice tests (Cisco Certified DevNet Associate certification) 60 questions
+Practice tests (Cisco Certified DevNet Associate certification) 60 questions
+
+https://www.udemy.com/user/falilou-sady/
