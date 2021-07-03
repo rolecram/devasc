@@ -12,7 +12,7 @@ response = requests.get( url = apiUrl, headers = httpHeaders, params = queryPara
 print( response.status_code )
 print( response.text )
 
-dic = res.json()
+dic = response.json()
 
 print (dic['?'])
 
