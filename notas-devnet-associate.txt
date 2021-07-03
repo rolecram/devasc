@@ -207,6 +207,9 @@ Git commands
 		Exploring IOS XE YANG Data Models with NETCONF
 			https://developer.cisco.com/learning/labs/intro-netconf/step/1
 			
+		
+		
+		
 		Cisco UCS Manager, UCS Director, and Intersight
 			(NOT AVAILABLE) https://developer.cisco.com/learning/lab/dnav3-dnac-apioverview/step/1
 			
@@ -311,3 +314,18 @@ Practice tests (Cisco Certified DevNet Associate certification) 60 questions
 https://www.udemy.com/user/falilou-sady/
 
 FIN.21.03
+
+3 de julio 2021
+YANG is a very structured and strongly typed language, both beneficial qualities for a data modeling language. Some aspects of the language to note:
+
+Every data model is a module, a self-contained top-level hierarchy of nodes.
+Data types can be imported from another YANG module or defined within a module.
+It uses containers to group related nodes.
+It uses lists to identify nodes that are stored in sequence.
+Each individual attribute of a node is represented by a leaf.
+Every leaf must have an associated type.
+
+Todos los laboratorios
+https://developer.cisco.com/learning/labs
+
+
