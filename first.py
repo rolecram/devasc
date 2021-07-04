@@ -1,23 +1,20 @@
 import json
 import requests
 
+#r = requests.get('<MY_URI>', headers={'Authorization': 'Bearer <MY_TOKEN>'})
+#res = requests.get('https://api.openweathermap.org/data/2.5/weather?q=Montreal,,CA&appid=b26f884059504c801d371a4834ce4623&mode=json')
 
-#s = {2,3,4}
-s = set([2,3,'marcelo'])
+apiUrl = 'https://webexapis.com/v1/rooms'
+access_token = 'MjYwNTAxNzMtYTQ4NS00MzZmLTgwYTEtYmJjNmYzZjEyY2VlM2Q0YzNlNjQtMWVk_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f'
+httpHeaders = { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + access_token }
+queryParams = { 'sortBy': 'lastactivity', 'max': '2' }
+response = requests.get( url = apiUrl, headers = httpHeaders, params = queryParams )
+print( response.status_code )
+print( response.text )
 
-#for e in s:
-#   print(e)
+dic = response.json()
 
-e = next(iter(s))
-e1 = next(iter(s))
-#x = s.pop()
-#x1 = s.pop()
-#x2 = s.pop()
+print (dic['?'])
 
-#print (x2[0])
-#print(list(s)[0])
-print (e1)
 
-#response = requests.get("https://jsonplaceholder.typicode.com/todos")
-#todos = json.loads(response.text)
 
